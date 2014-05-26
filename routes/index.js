@@ -1,1 +1,3 @@
-dd
+exports.index = function ( req, res ){
+  res.render( 'index', { title : 'Express Todo Example' });
+};
